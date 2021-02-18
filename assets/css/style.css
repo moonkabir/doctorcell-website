@@ -32,6 +32,47 @@ ul{
 .all-button:hover a{
     color:#fff;
 }
+/* color code css */
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --magenta: #84154D;
+    --cyan: #1399BE;
+    --purple: #8768DE;
+    --green: #098346;
+    --orange: #FF6600;
+    --red: #C40A2A;
+    --black: #000000;
+}
+
+/* body { background-color: var(--blue); } */
+
+.color-orange{
+    color: #FF6600 !important;
+}
+.color-red{
+    color: #C40A2A !important;
+}
+.color-green{
+    color: #098346 !important;
+}
+.color-cyan{
+    color: #1399BE !important;
+}
+.color-purple{
+    color: #8768DE !important;
+}
+.color-magenta{
+    color: #84154D !important;
+}
+.color-black{
+    color: #000000 !important;
+}
+
+
+
+
 
 /* top header */
 .top-header{
@@ -181,9 +222,68 @@ ul{
     margin-top: 10px;
     border-bottom: 1px solid white;
 }
-.menu .row{
-    background-color: #e6e7e8;
+.menu .row {
+    background-color: rgb(230 231 232 / 50%);
 }
+.menu .navbar-nav li.nav-item{
+    border: 1px dotted rgba(158, 158, 158,0.4);
+    border-top: 0;
+}
+.menu nav.navbar{
+    padding-left:0;
+}
+.menu .navbar-nav li.nav-item.active{
+    border-left: 0;
+}
+.menu .navbar-nav li.nav-item.active a{
+    font-size:16px;
+}
+.menu .navbar-nav li.nav-item a{
+    padding: 10px;
+}
+
+/* menu color */
+.menu .navbar-nav .nav-item a.color-green:hover{
+    background-color: var(--green);
+}
+.menu .navbar-nav .nav-item a.color-magenta:hover{
+    background-color: var(--magenta);
+}
+.menu .navbar-nav .nav-item a.color-cyan:hover{
+    background-color: var(--cyan);
+}
+.menu .navbar-nav .nav-item a.color-purple:hover{
+    background-color: var(--purple);
+}
+.menu .navbar-nav .nav-item a.color-red:hover{
+    background-color: var(--red);
+}
+.menu .navbar-nav .nav-item a.color-orange:hover{
+    background-color: var(--orange);
+}
+.menu .navbar-nav .nav-item a.color-black:hover{
+    background-color: var(--black);
+}
+.menu .navbar-nav .nav-item a.nav-link:hover{
+    color: var(--white) !important;
+}
+
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange{
+    padding:0;
+    margin: 0;
+    border-radius: 0;
+    border-top: 5px solid var(--orange);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange a{
+    color: var(--orange);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover{
+    background: var(--orange);
+    color: var(--white);
+}
+/* bootstrap menu show on hover */
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
 
 /*  slider-img*/
 .body-content{
