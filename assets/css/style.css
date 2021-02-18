@@ -115,7 +115,6 @@ ul{
     font-family: 'Baloo Da 2', cursive;
 }
 .top-header .mujib img{
-    width:80px;
     display:none;
 }
 
@@ -228,6 +227,10 @@ ul{
 }
 .menu nav.navbar{
     padding-left:0;
+    padding-right:0;
+}
+.menu nav.navbar .navbar-brand{
+    font-size: 16px;
 }
 .menu .navbar-nav li.nav-item.active{
     border-left: 0;
@@ -348,16 +351,19 @@ ul{
     height:300px;
 }
 /* right-column */
-.graphical-result-btn li a img{
+.right-sidebar {
+    padding-left: 15px;
+}
+.right-sidebar .graphical-result-btn li a img{
     width:100%;
 }
-.graphical-result-btn li{
+.right-sidebar .graphical-result-btn li{
     margin-bottom:5px;
 }
-.right-column{
+.right-sidebar .right-column{
     margin-bottom: 5px;
 }
-.right-column h5{
+.right-sidebar .right-column h5{
     background-color: #609513 !important;
     color: #fff;
     padding: 5px;

@@ -38,6 +38,10 @@
         float: none;
         text-align:center;
     }
+    /* right-sidebar */
+    .right-sidebar {
+        padding-left: 0px;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 421px) and (max-width: 600px) {
@@ -78,6 +82,10 @@
     .body-content .popular-portal ul li {
         float: none;
         text-align:center;
+    }
+    /* right-sidebar */
+    .right-sidebar {
+        padding-left: 0px;
     }
 }
 
