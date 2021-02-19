@@ -423,3 +423,6 @@ footer .footer-menu ul li a:hover{
 footer .bottom-footer{
     margin-top: 5px;
 }
+footer .footer-menu .right-text p{
+    text-align:right;
+}

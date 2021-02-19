@@ -42,6 +42,15 @@
     .right-sidebar {
         padding-left: 0px;
     }
+    footer .footer-menu .right-text p{
+        text-align:left;
+    }
+    footer .footer-menu ul li a{
+        border-right: 0;
+    }
+    footer .footer-menu ul li{
+        margin-bottom: 5px;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 421px) and (max-width: 600px) {
@@ -86,6 +95,15 @@
     /* right-sidebar */
     .right-sidebar {
         padding-left: 0px;
+    }
+    footer .footer-menu .right-text p{
+        text-align:left;
+    }
+    footer .footer-menu ul li a{
+        border-right: 0;
+    }
+    footer .footer-menu ul li{
+        margin-bottom: 5px;
     }
 }
 
