@@ -32,6 +32,7 @@ ul{
 .all-button:hover a{
     color:#fff;
 }
+button:focus{outline:0}
 /* color code css */
 
 :root {
@@ -44,6 +45,7 @@ ul{
     --orange: #FF6600;
     --red: #C40A2A;
     --black: #000000;
+    --ash: #737272;
 }
 
 /* body { background-color: var(--blue); } */
@@ -76,7 +78,7 @@ ul{
 
 /* top header */
 .top-header{
-    background-color: #9E5BBA; 
+    background-color: var(--cyan); 
     box-shadow: 0 1px 5px #999999;
     height:auto;
     border-bottom: 1px solid #e40001;
@@ -97,15 +99,16 @@ ul{
     font-size: 13px;
 }
 .top-header .search .search-btn {
-    background-color: #4ba614;
-    border:1px solid #4ba614;
+    background-color: var(--white);
+    border: 1px solid var(--white);
     font-size: 12px;
-    color: white;
+    color: var(--black);
     font-weight: 600;
 }
 .top-header .search .search-btn:hover{
-    background-color: #34740e;
-    border: 1px solid #34740e;
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    color: var(--white);
 }
 
 .top-header .date{
@@ -117,9 +120,6 @@ ul{
 .top-header .mujib img{
     display:none;
 }
-
-
-
 /* header */
 .header{
     background-color:white;
@@ -306,13 +306,18 @@ ul{
 }
 .body-content .notice-board-bg h5{
     padding-top: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
 }
 .body-content .notice-board-bg .notice-board-ticker {
     padding-left: 17%;
+    margin-top: -4%;
 }
 
 .body-content .notice-board-bg .notice-board-ticker a{
     color:#000;
+    font-size: 16px;
 }
 .body-content .notice-board-bg .notice-board-ticker a i{
     color:#29c944;
@@ -370,4 +375,51 @@ ul{
     font-size: 16px;
     overflow: hidden;
     margin-bottom: 0;
+}
+/* footer */
+footer{
+    border-top: 5px solid var(--ash); 
+    background-color: rgb(230 231 232 / 50%);
+    box-shadow: 0 1px 5px #999999;
+    height: auto;
+    border-bottom: 1px solid var(--purple);
+    margin-top: -11px;
+    font-size: 13px;
+}
+footer .footer-menu {
+    margin-top: 15px;
+}
+footer .footer-menu ul li a{
+    border-right: 1px solid var(--ash);
+    padding:5px 20px;
+    text-decoration: none;
+}
+
+/* footer-menu color */
+footer .footer-menu ul li a.color-green:hover{
+    background-color: var(--green);
+}
+footer .footer-menu ul li a.color-magenta:hover{
+    background-color: var(--magenta);
+}
+footer .footer-menu ul li a.color-cyan:hover{
+    background-color: var(--cyan);
+}
+footer .footer-menu ul li a.color-purple:hover{
+    background-color: var(--purple);
+}
+footer .footer-menu ul li a.color-red:hover{
+    background-color: var(--red);
+}
+footer .footer-menu ul li a.color-orange:hover{
+    background-color: var(--orange);
+}
+footer .footer-menu ul li a.color-black:hover{
+    background-color: var(--black);
+}
+footer .footer-menu ul li a:hover{
+    color: var(--white) !important;
+}
+footer .bottom-footer{
+    margin-top: 5px;
 }
