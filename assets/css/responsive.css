@@ -1,5 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 420px) {
+    .top-header .thana, .top-header .union,.top-header .search {
+        padding: 2px 5px;
+    }
     .top-header .mujib img{
         display:block;
         width:100px;
