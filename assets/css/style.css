@@ -268,19 +268,76 @@ button:focus{outline:0}
     color: var(--white) !important;
 }
 
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange{
+
+
+
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange,.menu .navbar-nav .nav-item .dropdown-menu.color-green,.menu .navbar-nav .nav-item .dropdown-menu.color-magenta,.menu .navbar-nav .nav-item .dropdown-menu.color-cyan,.menu .navbar-nav .nav-item .dropdown-menu.color-purple,.menu .navbar-nav .nav-item .dropdown-menu.color-red{
     padding:0;
     margin: 0;
     border-radius: 0;
     border-top: 5px solid var(--orange);
 }
+
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange{
+    border-top: 5px solid var(--orange);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-green{
+    border-top: 5px solid var(--green);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-magenta{
+    border-top: 5px solid var(--magenta);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-cyan{
+    border-top: 5px solid var(--cyan);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-purple{
+    border-top: 5px solid var(--purple);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-red{
+    border-top: 5px solid var(--red);
+}
 .menu .navbar-nav .nav-item .dropdown-menu.color-orange a{
     color: var(--orange);
 }
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover{
-    background: var(--orange);
+.menu .navbar-nav .nav-item .dropdown-menu.color-green a{
+    color: var(--green);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-red a{
+    color: var(--red);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a{
+    color: var(--magenta);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-purple a{
+    color: var(--purple);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a{
+    color: var(--cyan);
+}
+
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-green a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-red a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-purple a:hover{
     color: var(--white);
 }
+.menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover{
+    background: var(--orange);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a:hover{
+    background: var(--cyan);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-purple a:hover{
+    background: var(--purple);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a:hover{
+    background: var(--magenta);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-red a:hover{
+    background: var(--red);
+}
+.menu .navbar-nav .nav-item .dropdown-menu.color-green a:hover{
+    background: var(--green);
+}
+
+
 /* bootstrap menu show on hover */
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .dropdown-menu{ display: block; }
@@ -426,6 +483,8 @@ footer .bottom-footer{
 footer .footer-menu .right-text p{
     text-align:right;
 }
+
+
 
 /* dhaka-south-city page*/
 .body-content .about p{
