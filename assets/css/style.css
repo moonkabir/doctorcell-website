@@ -48,7 +48,7 @@ button:focus{outline:0}
     --ash: #737272;
 }
 
-/* body { background-color: var(--blue); } */
+/* body { background-color: var(--orange); } */
 
 .color-orange{
     color: #FF6600 !important;
@@ -226,8 +226,8 @@ button:focus{outline:0}
     border-top: 0;
 }
 .menu nav.navbar{
-    padding-left:0;
-    padding-right:0;
+    padding-left:5px;
+    padding-right:5px;
 }
 .menu nav.navbar .navbar-brand{
     font-size: 16px;
@@ -388,17 +388,18 @@ button:focus{outline:0}
     font-size:20px;
     margin-bottom: 25px;
 }
+.body-content .popular-plan .sebasomuho,.body-content .popular-plan .patasomuho,.body-content .popular-plan .portalsomuho{
+    font-size:16px;
+    padding-top: 10px;
+}
 .body-content .popular-plan .sebasomuho{
     color: #F17D00;
-    font-size:16px;
 }
 .body-content .popular-plan .patasomuho{
     color: #2891CD;
-    font-size:16px;
 }
 .body-content .popular-plan .portalsomuho{
     color: #8AC339;
-    font-size:16px;
 }
 .body-content .popular-plan a{
     font-size: 13px;
@@ -407,6 +408,15 @@ button:focus{outline:0}
 .body-content .popular-portal ul li{
     float:left;
     padding: 10px;
+}
+.body-content .popular-plan .topservices ul li a i{
+    color:var(--orange);
+}
+.body-content .popular-plan .toppages ul li a i{
+    color:var(--cyan);
+}
+.body-content .popular-plan .topsites ul li a i{
+    color:var(--green);
 }
 /* carousel */
 .body-content .carousel-item img{

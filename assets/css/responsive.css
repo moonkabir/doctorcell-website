@@ -54,6 +54,13 @@
     footer .footer-menu ul li{
         margin-bottom: 5px;
     }
+    /* about page */
+    .about{
+        padding-left: 5px;
+    }
+    .about h1{
+        font-size: 24px;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 421px) and (max-width: 600px) {
@@ -107,6 +114,13 @@
     }
     footer .footer-menu ul li{
         margin-bottom: 5px;
+    }
+    /* about page */
+    .about{
+        padding-left: 5px;
+    }
+    .about h1{
+        font-size: 26px;
     }
 }
 
