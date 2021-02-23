@@ -493,7 +493,7 @@ footer{
     box-shadow: 0 1px 5px #999999;
     height: auto;
     border-bottom: 1px solid var(--purple);
-    margin-top: -11px;
+    margin-top: 10px;
     font-size: 13px;
 }
 footer .footer-menu {
@@ -563,6 +563,27 @@ footer .footer-menu .right-text p{
 }
 @media only screen and (min-width: 70em) {
     .body-content .tottho-batayan table tr td{
+        display:table-cell;
+        border:1px dotted var(--ash);
+        margin-bottom:0px;
+    }
+}
+/* thana,union,word */
+.body-content .thana h5,.body-content .union h5,.body-content .word h5{
+    text-align:center;
+    padding:20px 0px;
+    font-weight: bold;
+}
+.body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
+    padding: 5px;
+    font-size: 12px;
+}
+.body-content .thana table thead tr td,.body-content .union table thead tr td,.body-content .word table thead tr td{
+    font-weight:bold;
+    text-align:center;
+}
+@media only screen and (min-width: 70em) {
+    .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
         display:table-cell;
         border:1px dotted var(--ash);
         margin-bottom:0px;
