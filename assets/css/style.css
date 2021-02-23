@@ -504,3 +504,51 @@ footer .footer-menu .right-text p{
 .body-content .about img{
     width: 100%;
 }
+
+
+
+/* submenu */
+.dropdown-menu ul li{
+    border-bottom: 1px dotted rgba(158, 158, 158,1.4);
+}
+.dropdown-menu ul li:last-child{
+    border-bottom:0;
+}
+ul.submenu{
+    display: none;
+}
+ul li.show-submenu-1:hover ul.submenu,ul li.show-submenu-2:hover ul.submenu,ul li.show-submenu-3:hover ul.submenu,ul li.show-submenu-4:hover ul.submenu,ul li.show-submenu-5:hover ul.submenu,ul li.show-submenu-6:hover ul.submenu,ul li.show-submenu-7:hover ul.submenu{
+    display: block!important;
+    position: absolute;
+    left: 100%;
+    background: white;
+}
+ul li.show-submenu-1:hover ul.submenu{
+    top: 0;
+}
+ul li.show-submenu-2:hover ul.submenu{
+    top: 25%;
+}
+.color-purple ul li.show-submenu-2:hover ul.submenu{
+    top: 50%;
+}
+ul li.show-submenu-3:hover ul.submenu{
+    top: 50%;
+}
+ul li.show-submenu-4:hover ul.submenu{
+    top: 75%;
+}
+.color-red ul li.show-submenu-2:hover ul.submenu{
+    top: 14.2%;
+}
+.color-red ul li.show-submenu-3:hover ul.submenu{
+    top: 28.5%;
+}.color-red ul li.show-submenu-4:hover ul.submenu{
+    top: 43%;
+}.color-red ul li.show-submenu-5:hover ul.submenu{
+    top: 57%;
+}.color-red ul li.show-submenu-6:hover ul.submenu{
+    top: 71.4%;
+}.color-red ul li.show-submenu-7:hover ul.submenu{
+    top: 86%;
+}
