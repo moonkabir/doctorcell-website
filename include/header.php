@@ -103,30 +103,30 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active"><a class="nav-link color-black" href="main.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                            <li class="nav-item"><a class="nav-link color-green" href="dhaka-south-city.html">ঢাকা মহানগর দক্ষিণ</a></li>
+                            <li class="nav-item active"><a class="nav-link color-black" href="main.php"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li class="nav-item"><a class="nav-link color-green" href="dhaka-south-city.php">ঢাকা মহানগর দক্ষিণ</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle color-orange" href="thana.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">থানা</a>
+                                <a class="nav-link dropdown-toggle color-orange" href="thana.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">থানা</a>
                                 <div class="dropdown-menu color-orange" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="word.html">ওয়ার্ড</a>
-                                    <a class="dropdown-item" href="union.html">ইউনিয়ন</a>
+                                    <a class="dropdown-item" href="word.php">ওয়ার্ড</a>
+                                    <a class="dropdown-item" href="union.php">ইউনিয়ন</a>
                                 </div>
                             </li>
-                            <li class="nav-item"><a class="nav-link color-magenta" href="thotto-batayan.html">তথ্য বাতায়ন</a></li>
-                            <li class="nav-item"><a class="nav-link color-cyan" href="press-realise.html">প্রেস রিলিজ</a></li>
+                            <li class="nav-item"><a class="nav-link color-magenta" href="thotto-batayan.php">তথ্য বাতায়ন</a></li>
+                            <li class="nav-item"><a class="nav-link color-cyan" href="press-realise.php">প্রেস রিলিজ</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle color-purple" href="gallery.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">গ্যালারি</a>
+                                <a class="nav-link dropdown-toggle color-purple" href="gallery.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">গ্যালারি</a>
                                 <div class="dropdown-menu color-purple" aria-labelledby="navbarDropdownMenuLink">
                                     <ul>
                                         <li class="show-submenu-1">
-                                            <a class="dropdown-item" href="gallery-video.html">ভিডিও গ্যালরি</a>
+                                            <a class="dropdown-item" href="gallery-video.php">ভিডিও গ্যালরি</a>
                                             <ul class="navbar-nav submenu">
                                                 <li><a class="dropdown-item" href="#">মহান স্বাধীনতা ও জাতীয় দিবস</a></li>
                                                 <li><a class="dropdown-item" href="#">৪র্থ জাতীয় উন্নয় মেলা</a></li>
                                             </ul>
                                         </li>
                                         <li class="show-submenu-2">
-                                            <a class="dropdown-item" href="gallery-image.html">ফটোগ্যালারী</a>
+                                            <a class="dropdown-item" href="gallery-image.php">ফটোগ্যালারী</a>
                                             <ul class="navbar-nav submenu">
                                                 <li><a class="dropdown-item" href="#">ই-নামজারি</a></li>
                                                 <li><a class="dropdown-item" href="#">কৃষকের অ্যাপ</a></li>

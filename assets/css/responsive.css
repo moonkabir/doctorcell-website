@@ -21,7 +21,7 @@
         width: 100%
     }
      /* menu submenu */
-     ul li.show-submenu-1:hover ul.submenu,ul li.show-submenu-2:hover ul.submenu,ul li.show-submenu-3:hover ul.submenu,ul li.show-submenu-4:hover ul.submenu,ul li.show-submenu-5:hover ul.submenu,ul li.show-submenu-6:hover ul.submenu,ul li.show-submenu-7:hover ul.submenu{
+    ul li.show-submenu-1:hover ul.submenu,ul li.show-submenu-2:hover ul.submenu,ul li.show-submenu-3:hover ul.submenu,ul li.show-submenu-4:hover ul.submenu,ul li.show-submenu-5:hover ul.submenu,ul li.show-submenu-6:hover ul.submenu,ul li.show-submenu-7:hover ul.submenu{
         display: block!important;
         position: absolute;
         left: 30%;
