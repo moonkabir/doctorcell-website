@@ -1,16 +1,10 @@
-// jQuery(document).ready(function () {
-//     jQuery('section nav').meanmenu();
-// });
+;(function($) {
+    "use strict";
+    $(document).ready(function() {
+        jQuery('.menu-2 nav').meanmenu();
+    });
 
-// jQuery(document).ready(function () {
-//     function bigImg(x) {
+    $(window).on('load', function() {
 
-//     x.style.height = "64px";
-//     x.style.width = "64px";
-//     }
-
-//     function normalImg(x) {
-//     x.style.height = "32px";
-//     x.style.width = "32px";
-//     }
-// });
+    });
+})(jQuery)
