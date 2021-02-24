@@ -214,35 +214,6 @@ button:focus{outline:0}
     border:1px solid black;
 }
 /* header navigation*/
-
-/* .menu{
-    margin-top: 10px;
-    border-bottom: 1px solid white;
-}
-.menu .row {
-    background-color: rgb(230 231 232 / 50%);
-}
-.menu .navbar-nav li.nav-item{
-    border: 1px dotted rgba(158, 158, 158,0.4);
-    border-top: 0;
-}
-.menu nav.navbar{
-    padding-left:5px;
-    padding-right:5px;
-}
-.menu nav.navbar .navbar-brand{
-    font-size: 14px;
-}
-.menu .navbar-nav li.nav-item.active{
-    border-left: 0;
-}
-.menu .navbar-nav li.nav-item.active a{
-    font-size:14px;
-}
-.menu .navbar-nav li.nav-item a{
-    padding: 10px;
-    font-size: 14px;
-} */
 .menu-2{
     margin-top: 10px;
     border-bottom: 1px solid white;
@@ -250,151 +221,43 @@ button:focus{outline:0}
 .menu-2 .row {
     background-color: rgb(230 231 232 / 50%);
 }
-
-
-/* menu color */
-
-/* .menu .navbar-nav .nav-item a.color-green:hover{
+/* mean-menu */
+.mean-nav .navbar-brand{
+    color: var(--red);
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+}
+.mean-container .mean-bar {
+    background-color: rgb(230 231 232 / 50%);
+    padding: 2px 0;
+}
+.mean-container a.meanmenu-reveal span {
     background-color: var(--green);
 }
-.menu .navbar-nav .nav-item a.color-magenta:hover{
-    background-color: var(--magenta);
+.mean-container a.meanmenu-reveal {
+    border: 1px solid var(--green);
 }
-.menu .navbar-nav .nav-item a.color-cyan:hover{
-    background-color: var(--cyan);
-}
-.menu .navbar-nav .nav-item a.color-purple:hover{
-    background-color: var(--purple);
-}
-.menu .navbar-nav .nav-item a.color-red:hover{
-    background-color: var(--red);
-}
-.menu .navbar-nav .nav-item a.color-orange:hover{
-    background-color: var(--orange);
-}
-.menu .navbar-nav .nav-item a.color-black:hover{
-    background-color: var(--black);
-}
-.menu .navbar-nav .nav-item a.nav-link:hover{
-    color: var(--white) !important;
-} */
-/* 
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange,.menu .navbar-nav .nav-item .dropdown-menu.color-green,.menu .navbar-nav .nav-item .dropdown-menu.color-magenta,.menu .navbar-nav .nav-item .dropdown-menu.color-cyan,.menu .navbar-nav .nav-item .dropdown-menu.color-purple,.menu .navbar-nav .nav-item .dropdown-menu.color-red{
-    padding:0;
-    margin: 0;
-    border-radius: 0;
-    border-top: 5px solid var(--orange);
-}
-
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange{
-    border-top: 5px solid var(--orange);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-green{
-    border-top: 5px solid var(--green);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-magenta{
-    border-top: 5px solid var(--magenta);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-cyan{
-    border-top: 5px solid var(--cyan);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-purple{
-    border-top: 5px solid var(--purple);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-red{
-    border-top: 5px solid var(--red);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange a{
-    color: var(--orange);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-green a{
+.mean-container a.meanmenu-reveal {
     color: var(--green);
 }
-.menu .navbar-nav .nav-item .dropdown-menu.color-red a{
-    color: var(--red);
+.mean-container .mean-nav ul li {
+    background-color: var(--white);
+    border-bottom:1px dotted var(--ash);
 }
-.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a{
-    color: var(--magenta);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-purple a{
-    color: var(--purple);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a{
-    color: var(--cyan);
-} */
-
-/* .menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-green a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-red a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a:hover,.menu .navbar-nav .nav-item .dropdown-menu.color-purple a:hover{
-    color: var(--white);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-orange a:hover{
-    background: var(--orange);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-cyan a:hover{
-    background: var(--cyan);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-purple a:hover{
-    background: var(--purple);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-magenta a:hover{
-    background: var(--magenta);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-red a:hover{
-    background: var(--red);
-}
-.menu .navbar-nav .nav-item .dropdown-menu.color-green a:hover{
-    background: var(--green);
-} */
-
-/* submenu */
-/* .dropdown-menu ul li{
-    border-bottom: 1px dotted rgba(158, 158, 158,1.4);
-}
-.dropdown-menu ul li:last-child{
+.mean-container .mean-nav ul li:last-child {
     border-bottom:0;
 }
-ul.submenu{
-    display: none;
+ul.color-red li a.dropdown-item.mean-expand-cpy {
+    color: var(--red);
 }
-ul li.show-submenu-1:hover ul.submenu,ul li.show-submenu-2:hover ul.submenu,ul li.show-submenu-3:hover ul.submenu,ul li.show-submenu-4:hover ul.submenu,ul li.show-submenu-5:hover ul.submenu,ul li.show-submenu-6:hover ul.submenu,ul li.show-submenu-7:hover ul.submenu{
-    display: block!important;
-    position: absolute;
-    left: 100%;
-    background: white;
+ul.color-red li a.mean-expand {
+    color: var(--red);
 }
-ul li.show-submenu-1:hover ul.submenu{
-    top: 0;
+ul.color-red li ul li a.dropdown-item {
+    color: var(--red);
 }
-ul li.show-submenu-2:hover ul.submenu{
-    top: 25%;
-}
-.color-purple ul li.show-submenu-2:hover ul.submenu{
-    top: 50%;
-}
-ul li.show-submenu-3:hover ul.submenu{
-    top: 50%;
-}
-ul li.show-submenu-4:hover ul.submenu{
-    top: 75%;
-}
-.color-red ul li.show-submenu-2:hover ul.submenu{
-    top: 14.2%;
-}
-.color-red ul li.show-submenu-3:hover ul.submenu{
-    top: 28.5%;
-}.color-red ul li.show-submenu-4:hover ul.submenu{
-    top: 43%;
-}.color-red ul li.show-submenu-5:hover ul.submenu{
-    top: 57%;
-}.color-red ul li.show-submenu-6:hover ul.submenu{
-    top: 71.4%;
-}.color-red ul li.show-submenu-7:hover ul.submenu{
-    top: 86%;
-} */
-
-/* bootstrap menu show on hover */
-
-/* .navbar .nav-item .dropdown-menu{ display: none; } */
-/* .navbar .nav-item:hover .dropdown-menu{ display: block; } */
 
 /*  slider-img*/
 .body-content{

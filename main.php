@@ -148,8 +148,8 @@
                     <div class="right-sidebar">
                         <ul class="graphical-result-btn" id="graphical-result-btn-desktop">
                             <li>
-                                <a target="_blank" href="https://corona.gov.bd/">
-                                    <img src="https://bangladesh.gov.bd/sites/default/files/files/bangladesh.gov.bd/graphical_result_button/c8e8e2c9_7fa3_4108_96ae_c7c55126d648/Corona-Virus-BD-portal.png" alt="" width="315" height="60">
+                                <a target="_blank" href="https://albd.org/bn/">
+                                    <img src="assets/images/Untitled-1-[Recovered].jpg" alt="" width="315" height="60">
                                 </a>
                             </li>
                             <li>
