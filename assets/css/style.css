@@ -75,10 +75,6 @@ body {
     color: #000000 !important;
 }
 
-
-
-
-
 /* top header */
 .top-header{
     background-color: var(--cyan); 
@@ -106,7 +102,6 @@ body {
     border: 1px solid var(--white);
     font-size: 12px;
     color: var(--black);
-    font-weight: 600;
 }
 .top-header .search .search-btn:hover{
     background-color: var(--green);
@@ -465,9 +460,6 @@ footer .footer-menu .right-text p{
         margin-bottom:0px;
     }
 }
-
-
-
 .popular-plan.mobile-popular-plan{
     display:none;
 }

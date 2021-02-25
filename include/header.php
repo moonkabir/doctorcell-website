@@ -35,7 +35,7 @@
                     </div>
                     <div class="search">
                         <form action="">
-                            <button type="submit" class="search-btn">Go</button>
+                            <button type="submit" class="search-btn">অনুসন্ধান</button>
                         </form>
                     </div>
                 </div>
