@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ঢাকা মহানগর দক্ষিণ আওয়ামী লীগ</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/meanmenu.min.css">
     <link rel="stylesheet" href="assets/css/meanmenu-external.css">
@@ -41,7 +42,7 @@
             </div>
             <div class="col-4">
                 <div class="date">
-                    <p>১৯ ফেব্রুয়ারী, ২০২১</p>
+                    <p>২৫ ফেব্রুয়ারী, ২০২১</p>
                 </div>
                 <div class="mujib">
                     <img src="assets/images/Mujib-Borsho.png" alt="Mujib-Soto-Borsho-2020">

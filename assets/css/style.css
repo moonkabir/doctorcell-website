@@ -33,6 +33,9 @@ ul{
     color:#fff;
 }
 button:focus{outline:0}
+body {
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+}
 /* color code css */
 
 :root {
@@ -88,8 +91,8 @@ button:focus{outline:0}
     color: white;
     height:100%;
     display:table;
-    padding: 7px;
-    font-size:13px;
+    padding: 9px;
+    font-size:14px;
 }
 .top-header .thana,.top-header .union,.top-header .date p,.top-header .search{
     padding: 5px;
@@ -115,7 +118,7 @@ button:focus{outline:0}
     color:white;
     display:flex;
     justify-content:flex-end;
-    font-family: 'Baloo Da 2', cursive;
+    /* font-family: 'Baloo Da 2', cursive; */
 }
 .top-header .mujib img{
     display:none;
@@ -227,7 +230,7 @@ button:focus{outline:0}
     position: absolute;
     top: 10px;
     left: 5px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .mean-container .mean-bar {
     background-color: rgb(230 231 232 / 50%);
@@ -302,15 +305,15 @@ ul.color-red li ul li a.dropdown-item {
 }
 .popular-plan .title{
     color: #69308f;
-    font-size:20px;
-    margin-bottom: 25px;
+    font-size:24px;
+    margin-bottom: 15px;
 }
 .popular-plan .sebasomuho,.popular-plan .patasomuho,.popular-plan .portalsomuho{
-    font-size:16px;
+    font-size:18px;
     padding-top: 10px;
 }
 .popular-plan a{
-    font-size: 13px;
+    font-size: 14px;
     color: #000;
 }
 .body-content .popular-portal ul li{
@@ -367,7 +370,7 @@ footer{
     height: auto;
     border-bottom: 1px solid var(--purple);
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 footer .footer-menu {
     margin-top: 15px;
