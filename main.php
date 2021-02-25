@@ -35,13 +35,21 @@
                             </div>	
                         </div>
                     </div>
+                    
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <!-- <h4 class="text-center">ঢাকা দক্ষিণের ঐতিহ্য</h4> -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="assets/images/slider1.jpeg" alt="First slide">
+                                <img class="d-block w-100" src="assets/images/slider4.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-100" src="assets/images/slider2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider3.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider1.jpg" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

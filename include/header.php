@@ -176,10 +176,10 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link dropdown-toggle color-red" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">সরকারি অফিস</a>
-                            <ul class="color-red">
+                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-red" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">সরকারি অফিস</a>
+                            <ul class="color-red mega-menu govt-office">
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://police.dhaka.gov.bd/">পুলিশ সুপারের কার্যালয়,ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://fireservice.dhaka.gov.bd/">ফায়ার সাভিস ও সিভিল ডিফেন্স, ঢাকা।</a></li>
                                         <li><a class="dropdown-item" href="http://ansarvdp.dhaka.gov.bd/">জেলা আনসার ও ভিডিপি কার্যালয়, ঢাকা</a</li>
@@ -188,7 +188,7 @@
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">শিক্ষা ও সংস্কৃতি</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://deo.dhaka.gov.bd/">জেলা শিক্ষা অফিস</a></li>
                                         <li><a class="dropdown-item" href="http://dpe.dhaka.gov.bd/">জেলা প্রাথমিক শিক্ষা অফিস, ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://shilpakala.dhaka.gov.bd/">জেলা শিল্পকলা একাডেমী, ঢাকা</a</li>
@@ -198,7 +198,7 @@
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">কৃষি ও খাদ্য বিষয়ক</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://cdb.dhaka.gov.bd/">তুলা উন্নয়ন বোর্ড, ঢাকা জোন</a></li>
                                         <li><a class="dropdown-item" href="http://badc.dhaka.gov.bd/">নির্বাহী প্রকৌশলীর (সওকা) কার্যালয়, বিএডিসি</a></li>
                                         <li><a class="dropdown-item" href="http://smbadc.dhaka.gov.bd/">উপ পরিচালক (বীজ বিপণন), বিএডিসি</a></li>
@@ -207,13 +207,13 @@
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">স্বাস্থ্য বিষয়ক</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://fpo.dhaka.gov.bd/">পরিবার পরিকল্পনা কার্যালয়, আজিমপুর, ঢাকা।</a></li>
                                         <li><a class="dropdown-item" href="http://cs.dhaka.gov.bd/">সিভিল সার্জনের কার্যালয়</a></li>
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">প্রকৌশল ও যোগাযোগ</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://lged.dhaka.gov.bd/">এল জি ই ডি</a></li>
                                         <li><a class="dropdown-item" href="http://pwd.dhaka.gov.bd/">গণপূর্ত ই/এম বিভাগ-১, ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://pbs3.dhaka.gov.bd/">ঢাকা পল্লী বিদ্যুৎ সমিতি -৩</a></li>
@@ -225,7 +225,7 @@
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">মানব সম্পদ উন্নয়ন বিষয়ক</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://dwa.dhaka.gov.bd/">মহিলা বিষয়ক কর্মকর্তার কার্যালয়, ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://forest.dhaka.gov.bd/">ঢাকা সামাজিক বন বিভাগ</a></li>
                                         <li><a class="dropdown-item" href="http://dss.dhaka.gov.bd/">জেলা সমাজসেবা কার্যালয়, ঢাকা।</a></li>
@@ -234,7 +234,7 @@
                                     </ul>
                                 </li>
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">অন্যান্য অফিসসমূহ</a>
-                                    <ul>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://passport.dhaka.gov.bd/">পাসপোর্ট অফিস</a></li>
                                         <li><a class="dropdown-item" href="http://dr.dhaka.gov.bd/">জেলা রেজিস্ট্রারের কার্যালয়</a></li>
                                         <li><a class="dropdown-item" href="http://dao.dhaka.gov.bd/">জেলা হিসাব রক্ষণ অফিস</a></li>
