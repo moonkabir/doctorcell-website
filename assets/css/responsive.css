@@ -20,24 +20,6 @@
     .header .navigation .srs-form .srs-field{
         width: 100%
     }
-     /* menu submenu */
-    
-    /* ul li.show-submenu-1:hover ul.submenu,ul li.show-submenu-2:hover ul.submenu,ul li.show-submenu-3:hover ul.submenu,ul li.show-submenu-4:hover ul.submenu,ul li.show-submenu-5:hover ul.submenu,ul li.show-submenu-6:hover ul.submenu,ul li.show-submenu-7:hover ul.submenu{
-        display: block!important;
-        position: absolute;
-        left: 30%;
-        background: white;
-    }
-    .color-red ul li.show-submenu-7:hover ul.submenu {
-        z-index: 99;
-    }
-    .color-red ul li.show-submenu-6:hover ul.submenu {
-        z-index: 99;
-    }
-    .color-red ul li.show-submenu-5:hover ul.submenu {
-        z-index: 99;
-    } */
-
     /* union word list */
     .header .information-row {
         margin-top: 5px;
@@ -59,9 +41,14 @@
         float: none;
         text-align:center;
     }
+    /* slider */
+    .body-content .carousel-item img {
+        height: 150px;
+    }
     /* right-sidebar */
     .right-sidebar {
         padding-left: 0px;
+        padding-top: 20px;
     }
     footer .footer-menu .right-text p{
         text-align:left;
@@ -78,6 +65,16 @@
     }
     .about h1{
         font-size: 24px;
+    }
+    /* popular plan */
+    .popular-plan{
+        display: none;
+    }
+    .popular-plan.mobile-popular-plan{
+        display:block;
+    }
+    .popular-plan .patasomuho,.popular-plan .portalsomuho{
+        padding-top: 30px;
     }
 }
 /* Extra small devices (phones, 600px and down) */
@@ -120,9 +117,14 @@
         float: none;
         text-align:center;
     }
+    /* slider */
+    .body-content .carousel-item img {
+        height: 150px;
+    }
     /* right-sidebar */
     .right-sidebar {
         padding-left: 0px;
+        padding-top: 20px;
     }
     footer .footer-menu .right-text p{
         text-align:left;
@@ -139,6 +141,16 @@
     }
     .about h1{
         font-size: 26px;
+    }
+    /* popular plan */
+    .popular-plan{
+        display: none;
+    }
+    .popular-plan.mobile-popular-plan{
+        display:block;
+    }
+    .popular-plan .patasomuho,.popular-plan .portalsomuho{
+        padding-top: 30px;
     }
 }
 

@@ -130,7 +130,13 @@
     #primary_nav_wrap ul li.nav-item ul.color-green a:hover{
         background: var(--green);
     }
-    
+    #primary_nav_wrap ul li.mega-menu-li:hover .mega-menu{
+        display:flex;
+    }
+    #primary_nav_wrap ul li.mega-menu-li:hover .mega-menu .mega-sub-menu{
+        top: 100%;
+        left: 0px;
+    } 
 }
 
     ul.color-cyan li a.dropdown-item.mean-expand-cpy,ul.color-cyan li a.mean-expand,ul.color-cyan li ul li a.dropdown-item {
@@ -151,4 +157,6 @@
     ul.color-magenta li a.dropdown-item.mean-expand-cpy,ul.color-magenta li a.mean-expand,ul.color-magenta li ul li a.dropdown-item {
         color: var(--magenta);
     }
-
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background: none;
+    }

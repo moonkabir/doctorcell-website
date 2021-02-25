@@ -297,28 +297,19 @@ ul.color-red li ul li a.dropdown-item {
     color:#29c944;
 }
 /* popular-plan */
-.body-content .popular-plan{
+.popular-plan{
     margin-top: 25px;
 }
-.body-content .popular-plan .title{
+.popular-plan .title{
     color: #69308f;
     font-size:20px;
     margin-bottom: 25px;
 }
-.body-content .popular-plan .sebasomuho,.body-content .popular-plan .patasomuho,.body-content .popular-plan .portalsomuho{
+.popular-plan .sebasomuho,.popular-plan .patasomuho,.popular-plan .portalsomuho{
     font-size:16px;
     padding-top: 10px;
 }
-.body-content .popular-plan .sebasomuho{
-    color: #F17D00;
-}
-.body-content .popular-plan .patasomuho{
-    color: #2891CD;
-}
-.body-content .popular-plan .portalsomuho{
-    color: #8AC339;
-}
-.body-content .popular-plan a{
+.popular-plan a{
     font-size: 13px;
     color: #000;
 }
@@ -326,15 +317,23 @@ ul.color-red li ul li a.dropdown-item {
     float:left;
     padding: 10px;
 }
-.body-content .popular-plan .topservices ul li a i{
+
+.popular-plan ul li:hover a{
+    text-decoration: none;
+}
+.popular-plan .sebasomuho,.popular-plan .topservices ul li a i,.popular-plan .topservices ul li:hover a{
     color:var(--orange);
 }
-.body-content .popular-plan .toppages ul li a i{
-    color:var(--cyan);
+.popular-plan .patasomuho,.popular-plan .toppages ul li a i,.popular-plan .toppages ul li:hover a{
+    color:var(--purple);
 }
-.body-content .popular-plan .topsites ul li a i{
-    color:var(--green);
+.popular-plan .portalsomuho,.popular-plan .topsites ul li a i,.popular-plan .topsites ul li:hover a{
+    color:var(--red);
 }
+.popular-plan ul li a i{
+    padding-right: 5px;
+}
+
 /* carousel */
 .body-content .carousel-item img{
     height:300px;
@@ -462,4 +461,10 @@ footer .footer-menu .right-text p{
         border:1px dotted var(--ash);
         margin-bottom:0px;
     }
+}
+
+
+
+.popular-plan.mobile-popular-plan{
+    display:none;
 }

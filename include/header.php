@@ -103,44 +103,42 @@
                     <ul>
                         <li class="nav-item active"><a class="nav-link color-black" href="main.php"><i class="fa fa-home" aria-hidden="true"></i></a></li>
                         
-                        <li class="nav-item"><a class="nav-link dropdown-toggle color-green" href="dhaka-south-city.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ঢাকা মহানগর দক্ষিণ</a>
-                            <ul class="color-green">
-                                <li><a class="dropdown-item color-red" href="word.php">কার্যনির্বাহী সংসদ</a></li>
-                                <li><a class="dropdown-item color-red" href="union.php">কার্যনির্বাহী সংসদ সদস্য</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item"><a class="nav-link color-orange" href="dhaka-south-city.php">উপদেষ্টা পরিষদ সদস্য</a></li>
-
-                        <li class="nav-item"><a class="nav-link dropdown-toggle color-red" href="dhaka-south-city.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">সভাপতি/সাধারণ সম্পাদক</a>
-                            <ul class="color-red" style="width: 100%;">
-                                <li><a class="dropdown-item color-red" href="thana.php">থানা</a></li>
-                                <li><a class="dropdown-item color-red" href="word.php">ওয়ার্ড</a></li>
-                                <li><a class="dropdown-item color-red" href="union.php">ইউনিয়ন</a></li>
+                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" href="dhaka-south-city.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ঢাকা মহানগর দক্ষিণ</a>
+                            <ul class="color-green mega-menu">
+                                <li><a class="dropdown-item color-green" href="word.php">কার্যনির্বাহী সংসদ</a></li>
+                                <li><a class="dropdown-item color-green" href="union.php">কার্যনির্বাহী সংসদ সদস্য</a></li>
+                                <li><a class="dropdown-item color-green" href="union.php">উপদেষ্টা পরিষদ সদস্য</a></li>
+                                <li><a class="dropdown-item color-green dropdown-toggle" href="union.php">সভাপতি/সাধারণ সম্পাদক</a>
+                                    <ul class="color-green mega-sub-menu" style="width: 100%;">
+                                        <li><a class="dropdown-item color-green" href="thana.php">থানা</a></li>
+                                        <li><a class="dropdown-item color-green" href="word.php">ওয়ার্ড</a></li>
+                                        <li><a class="dropdown-item color-green" href="union.php">ইউনিয়ন</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link color-magenta" href="thotto-batayan.php">তথ্য বাতায়ন</a></li>
                         <li class="nav-item"><a class="nav-link color-cyan" href="press-realise.php">প্রেস রিলিজ</a></li>
-                        <li class="nav-item"><a class="nav-link dropdown-toggle color-purple" href="gallery.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">গ্যালারি</a>
-                            <ul class="color-purple">
-                                <li><a class="dropdown-item color-purple" href="gallery-video.php">ভিডিও গ্যালরি</a>
-                                    <ul>
+                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-purple" href="gallery.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">গ্যালারি</a>
+                            <ul class="color-purple mega-menu">
+                                <li><a class="dropdown-item color-purple dropdown-toggle" href="gallery-video.php">ভিডিও গ্যালরি</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="#">মহান স্বাধীনতা ও জাতীয় দিবস</a></li>
                                         <li><a class="dropdown-item" href="#">৪র্থ জাতীয় উন্নয় মেলা</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="gallery-image.php">ফটোগ্যালারী</a>
-                                    <ul>
+                                <li><a class="dropdown-item dropdown-toggle" href="gallery-image.php">ফটোগ্যালারী</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="#">ই-নামজারি</a></li>
                                         <li><a class="dropdown-item" href="#">কৃষকের অ্যাপ</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link dropdown-toggle color-green" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ই-সেবাসমূহ</a>
-                            <ul class="color-green">
-                                <li class="dir"><a class="dropdown-item">মোবাইল অ্যাপ</a>
-                                    <ul>
+                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ই-সেবাসমূহ</a>
+                            <ul class="color-green mega-menu">
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">মোবাইল অ্যাপ</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.landcalculation">উরররাধিকার ক্যালকুলেটোর (এন্ড্রয়েড)</a></li>
                                         <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.tappware.ned&amp;hl=en">বাংলাদেশ ডিরেক্টরি (এন্ড্রয়েড)</a></li>
                                         <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.tappware.bts&amp;hl=en">বাংলাদেশ পর্যটন</a></li>
@@ -148,8 +146,8 @@
                                         <li><a class="dropdown-item" href="https://itunes.apple.com/us/app/nothi/id1187955540?mt=8">নথি (অ্যাপেল ফোন)</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">জাতীয় ই-সেবা</a>
-                                    <ul>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">জাতীয় ই-সেবা</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://land.gov.bd/">জাতীয় ভূমি সেবা</a></li>
                                         <li><a class="dropdown-item" href="http://services.portal.gov.bd/">সেবাকুঞ্জ</a></li>
                                         <li><a class="dropdown-item" href="http://ecourt.gov.bd/">ই-মোবাইল কোর্ট</a></li>
@@ -158,8 +156,8 @@
                                         <li><a class="dropdown-item" href="/site/page/807e8bba-2013-11e7-8f57-286ed488c766/ই-তথ্য কোষ">ই-তথ্য কোষ</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">জেলা ই-সেবা কেন্দ্র</a>
-                                    <ul>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">জেলা ই-সেবা কেন্দ্র</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="http://ecourt.gov.bd/citizen_public_view/new">অপরাধের তথ্য দিন</a></li>
                                         <li><a class="dropdown-item" href="/site/page/12ae9564-2013-11e7-8f57-286ed488c766/নাগরিক আবেদন">নাগরিক আবেদন</a></li>
                                         <li><a class="dropdown-item" href="/site/page/efd920bd-2012-11e7-8f57-286ed488c766/নকলের আবেদন">নকলের আবেদন</a></li>
@@ -167,8 +165,8 @@
                                         <li><a class="dropdown-item" href="/site/officer_list/965e7155-2010-11e7-8f57-286ed488c766/পোর্টাল সম্পর্কিত যোগাযোগ">পোর্টাল সম্পর্কিত যোগাযোগ</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">ইউনিয়ন ডিজিটাল সেন্টার</a>
-                                    <ul>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">ইউনিয়ন ডিজিটাল সেন্টার</a>
+                                    <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="/site/page/74cf80e4-2013-11e7-8f57-286ed488c766/এক নজরে ইউডিসি">এক নজরে ইউডিসি</a></li>
                                         <li><a class="dropdown-item" href="/site/page/74cf7ce5-2013-11e7-8f57-286ed488c766/ইউআইএসসি এর সেবাসমূহ">ইউআইএসসি এর সেবাসমূহ</a></li>
                                         <li><a class="dropdown-item" href="/site/page/6a126eab-2013-11e7-8f57-286ed488c766/উদ্যোক্তা ব্লগ">উদ্যোক্তা ব্লগ</a></li>
@@ -179,7 +177,7 @@
                         </li>
                         <li class="nav-item"><a class="nav-link dropdown-toggle color-red" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">সরকারি অফিস</a>
                             <ul class="color-red">
-                                <li class="dir"><a class="dropdown-item">আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://police.dhaka.gov.bd/">পুলিশ সুপারের কার্যালয়,ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://fireservice.dhaka.gov.bd/">ফায়ার সাভিস ও সিভিল ডিফেন্স, ঢাকা।</a></li>
@@ -188,7 +186,7 @@
                                         <li><a class="dropdown-item" href="http://rab.dhaka.gov.bd/">র&zwnj;্যাব</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">শিক্ষা ও সংস্কৃতি</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">শিক্ষা ও সংস্কৃতি</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://deo.dhaka.gov.bd/">জেলা শিক্ষা অফিস</a></li>
                                         <li><a class="dropdown-item" href="http://dpe.dhaka.gov.bd/">জেলা প্রাথমিক শিক্ষা অফিস, ঢাকা</a></li>
@@ -198,7 +196,7 @@
                                         <li><a class="dropdown-item" href="http://ttc.dhaka.gov.bd">সরকারি টিচার্স ট্রেনিং কলেজ</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">কৃষি ও খাদ্য বিষয়ক</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">কৃষি ও খাদ্য বিষয়ক</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://cdb.dhaka.gov.bd/">তুলা উন্নয়ন বোর্ড, ঢাকা জোন</a></li>
                                         <li><a class="dropdown-item" href="http://badc.dhaka.gov.bd/">নির্বাহী প্রকৌশলীর (সওকা) কার্যালয়, বিএডিসি</a></li>
@@ -207,13 +205,13 @@
                                         <li><a class="dropdown-item" href="http://doj.dhaka.gov.bd/">পাট অধিদপ্তর, ঢাকা</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">স্বাস্থ্য বিষয়ক</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">স্বাস্থ্য বিষয়ক</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://fpo.dhaka.gov.bd/">পরিবার পরিকল্পনা কার্যালয়, আজিমপুর, ঢাকা।</a></li>
                                         <li><a class="dropdown-item" href="http://cs.dhaka.gov.bd/">সিভিল সার্জনের কার্যালয়</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">প্রকৌশল ও যোগাযোগ</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">প্রকৌশল ও যোগাযোগ</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://lged.dhaka.gov.bd/">এল জি ই ডি</a></li>
                                         <li><a class="dropdown-item" href="http://pwd.dhaka.gov.bd/">গণপূর্ত ই/এম বিভাগ-১, ঢাকা</a></li>
@@ -225,7 +223,7 @@
                                         <li><a class="dropdown-item" href="http://doict.dhaka.gov.bd/">তথ্য ও যোগাযোগ প্রযুক্তি(আইসিটি) অধিদপ্তর</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">মানব সম্পদ উন্নয়ন বিষয়ক</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">মানব সম্পদ উন্নয়ন বিষয়ক</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://dwa.dhaka.gov.bd/">মহিলা বিষয়ক কর্মকর্তার কার্যালয়, ঢাকা</a></li>
                                         <li><a class="dropdown-item" href="http://forest.dhaka.gov.bd/">ঢাকা সামাজিক বন বিভাগ</a></li>
@@ -234,7 +232,7 @@
                                         <li><a class="dropdown-item" href="http://bmet.dhaka.gov.bd/">কর্মসংস্থান ও জনশক্তি</a></li>
                                     </ul>
                                 </li>
-                                <li class="dir"><a class="dropdown-item">অন্যান্য অফিসসমূহ</a>
+                                <li class="dir"><a class="dropdown-item dropdown-toggle">অন্যান্য অফিসসমূহ</a>
                                     <ul>
                                         <li><a class="dropdown-item" href="http://passport.dhaka.gov.bd/">পাসপোর্ট অফিস</a></li>
                                         <li><a class="dropdown-item" href="http://dr.dhaka.gov.bd/">জেলা রেজিস্ট্রারের কার্যালয়</a></li>
