@@ -38,4 +38,12 @@
         <h5>সুরক্ষা ওয়েবসাইটে কীভাবে নিবন্ধন করবেন</h5>
         <p><iframe frameborder="0" src="https://www.youtube.com/embed/aI97ajpyq00" width="100%"></iframe></p>
     </div>
+    <div class="right-column">
+        <h5>জরুরি হটলাইন</h5>
+        <p><img alt="National-Helpline" src="assets/images/National-Helpline.jpeg" style="width:100%"></p>
+    </div>
+    <div class="right-column">
+        <h5>জরুরি হটলাইন</h5>
+        <p><img alt="National-Helpline" src="assets/images/National-Helpline.jpeg" style="width:100%"></p>
+    </div>
 </div>
