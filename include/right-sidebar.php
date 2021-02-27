@@ -2,27 +2,32 @@
     <ul class="graphical-result-btn" id="graphical-result-btn-desktop">
         <li>
             <a target="_blank" href="https://albd.org/bn/">
-                <img src="assets/images/Untitled-1-[Recovered].jpg" alt="" width="315" height="60">
+                <img src="assets/images/awami-league.jpg" alt="awami-league">
             </a>
         </li>
         <li>
             <a target="_blank" href="https://jlbd.org.bd/">
-                <img src="assets/images/jubo-league.jpg" alt="jubo-league" width="315" height="60">
+                <img src="assets/images/jubo-league.jpg" alt="jubo-league">
             </a> 
         </li>
         <li>
             <a target="_blank" href="https://bsl.org.bd/">
-                <img src="assets/images/chatro-league.jpg" alt="" width="315" height="60">            
+                <img src="assets/images/chatro-league.jpg" alt="chatro-league">            
             </a>   
         </li>
         <li>
             <a target="_blank" href="#">
-                <img src="assets/images/crishok-league.jpg" alt="crishok-league" width="315" height="60">            
+                <img src="assets/images/krishok-league.jpg" alt="krishok-league">            
             </a> 
         </li>
         <li>
             <a target="_blank" href="https://www.jatiosramikleague.org/">
-                <img src="assets/images/sromik-league.jpg" alt="crishok-league" width="315" height="60">            
+                <img src="assets/images/shormik-league.jpg" alt="sromik-league">            
+            </a> 
+        </li>
+        <li>
+            <a target="_blank" href="#">
+                <img src="assets/images/secchasebok-league.jpg" alt="secchasebok-league">            
             </a> 
         </li>
     </ul>

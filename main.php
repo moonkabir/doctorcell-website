@@ -11,7 +11,7 @@
                             <h3>
                                 <strong>
                                     <a href="/site/files/a7db30cc-eaf5-402d-8b7f-c3f649ffdc5a"style="text-decoration: none;">
-                                        <span style="color:#B22222; font-size:15px;">কোভিড-১৯ ভ্যাকসিন ম্যনেজমেন্ট সিস্টেম ওয়েব পোর্টাল ব্যবহার সহায়িকা.</span>
+                                        <span style="color:#B22222; font-size:17px;">কোভিড-১৯ ভ্যাকসিন ম্যনেজমেন্ট সিস্টেম ওয়েব পোর্টাল ব্যবহার সহায়িকা.</span>
                                     </a>
                                 </strong>
                             </h3>
@@ -97,12 +97,12 @@
                         </div>
                     </div>
                     <div class="news">
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
+                        <div class="d-lg-flex">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>কর্মসম্পাদন ব্যবস্থাপনা</h4>
                                     <div class="d-flex">
-                                        <img style="max-width:700px;" src="http://www.dhaka.gov.bd/sites/default/files/files/dhaka.gov.bd/front_service_box/5ce932fa_d063_4586_a1f6_73a471abb7b5/283a3281b40fae9d312c03696fd37425.png" alt="কর্মসম্পাদন ব্যবস্থাপনা" width="110" height="">
+                                        <img style="max-width:700px;" src="assets/images/news1.png" alt="কর্মসম্পাদন ব্যবস্থাপনা">
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="https://bangladesh.gov.bd/site/view/policy/" title="পরিপত্র/নীতিমালা">পরিপত্র/নীতিমালা</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/9722d824-a890-4da5-8b57-cd786bb44775/চুক্তিসমূহ" title="চুক্তিসমূহ">চুক্তিসমূহ</a></li>
@@ -112,11 +112,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>টেন্ডার</h4>
                                     <div class="d-flex">
-                                        <img src="//dscc.gov.bd/sites/default/files/files/dscc.portal.gov.bd/front_service_box/e6d68858_a0f0_4914_893b_8f30a60f6b23/logo-3 (4).png" alt="টেন্ডার" width="110" height="">		
+                                        <img src="assets/images/news2.png" alt="টেন্ডার">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/view/tenders/টেন্ডার-নোটিশ" title="টেন্ডার নোটিশ">টেন্ডার নোটিশ</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="https://www.eprocure.gov.bd/" title="ইজিপি ওয়েব সাইট">ইজিপি ওয়েব সাইট</a></li>
@@ -127,12 +127,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
+                        <div class="d-lg-flex">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইসিটি বিষয়ক কার্যক্রম</h4>
                                     <div class="d-flex">
-                                        <img src="//dscc.gov.bd/sites/default/files/files/dscc.portal.gov.bd/front_service_box/bef13cf6_6e94_471b_8c74_44c5bbae847f/-1.png" alt="আইসিটি বিষয়ক কার্যক্রম" width="110" height="">	
+                                        <img src="assets/images/news3.png" alt="আইসিটি বিষয়ক কার্যক্রম">	
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/5f866e18-cf76-49eb-8840-0ada912ee028/বাস্তবায়িত-ই-সেবা-কার্যক্রম" title="বাস্তবায়িত ই-সেবা কার্যক্রম">বাস্তবায়িত ই-সেবা কার্যক্রম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/24bbfed6-a153-4e84-a69d-59b44b0bbf91/বাস্তাবায়নাধিন-ই-সেবা-কার্যক্রম" title="বাস্তাবায়নাধিন ই-সেবা কার্যক্রম">বাস্তাবায়নাধিন ই-সেবা কার্যক্রম</a></li>
@@ -142,11 +142,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
-                                        <img src="//dscc.gov.bd/sites/default/files/files/dscc.portal.gov.bd/front_service_box/b68701f9_fd8b_4f00_8fa3_b3c79af487a1/2020-11-01-11-56-9e2e7eef82555cb66c413be5b7eb2933.png" alt="ফরম ও প্রকাশনা " width="110" height="">		
+                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা ">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
@@ -158,12 +158,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
+                        <div class="d-lg-flex">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইন, বিধি, নীতিমালা</h4>
                                     <div class="d-flex">
-                                        <img src="//dscc.gov.bd/sites/default/files/files/dscc.portal.gov.bd/front_service_box/af28d45b_1a0a_4036_a934_92c125164a88/Laws.png" alt="আইন, বিধি, নীতিমালা" width="110" height="">	
+                                        <img src="assets/images/news5.png" alt="আইন, বিধি, নীতিমালা">	
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/07e19fc4-ed53-47e3-a4dc-256b44b5e384/আইন" title="আইন">আইন</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/07e19fc4-ed53-47e3-a4dc-256b44b5e384/বিধি" title="বিধি">বিধি</a></li>
@@ -173,17 +173,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12">
+                            <div class="col-lg-6 col-12 pad-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
-                                        <img src="//dscc.gov.bd/sites/default/files/files/dscc.portal.gov.bd/front_service_box/b68701f9_fd8b_4f00_8fa3_b3c79af487a1/2020-11-01-11-56-9e2e7eef82555cb66c413be5b7eb2933.png" alt="ফরম ও প্রকাশনা " width="110" height="">		
+                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/view/forms/সকল-ফরম" title="সকল ফরম">সকল ফরম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/view/publications/প্রকাশনা" title="প্রকাশনা">প্রকাশনা</a></li>
-                                            
                                         </ul>
                                     </div>
                                 </div>

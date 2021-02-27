@@ -153,6 +153,9 @@
     .body-content .news .row{
         padding-bottom: 0px;
     }
+    .body-content .news .service-box{
+        margin-bottom: 20px;
+    }
     /* right-sidebar */
     .right-sidebar {
         padding-left: 0px;

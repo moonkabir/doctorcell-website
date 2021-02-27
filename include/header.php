@@ -70,7 +70,7 @@
                         <div class="col-lg-3 col-4 pad-0"> 
                             <div class="infographic-menu">
                                 <a href="#" class="infogra-menu-item">
-                                    <span class="infogra-num">৭৩<sup>ওয়ার্ড</sup></span>
+                                    <span class="infogra-num">৭৫<sup>ওয়ার্ড</sup></span>
                                 </a>
                             </div>
                         </div>
