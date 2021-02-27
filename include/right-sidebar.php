@@ -47,8 +47,4 @@
         <h5>জরুরি হটলাইন</h5>
         <p><img alt="National-Helpline" src="assets/images/National-Helpline.jpeg" style="width:100%"></p>
     </div>
-    <div class="right-column">
-        <h5>জরুরি হটলাইন</h5>
-        <p><img alt="National-Helpline" src="assets/images/National-Helpline.jpeg" style="width:100%"></p>
-    </div>
 </div>

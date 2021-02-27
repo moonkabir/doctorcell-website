@@ -137,7 +137,7 @@
                             </ul>
                         </li>
                         <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ই-সেবাসমূহ</a>
-                            <ul class="color-green mega-menu">
+                            <ul class="color-green mega-menu e-sheba">
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">মোবাইল অ্যাপ</a>
                                     <ul class="mega-sub-menu">
                                         <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.landcalculation">উরররাধিকার ক্যালকুলেটোর (এন্ড্রয়েড)</a></li>

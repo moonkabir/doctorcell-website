@@ -42,7 +42,7 @@
                 <div class="col-12 pad-0">
                     <div class="footer-menu d-lg-flex justify-content-between">
                         <div class="col-lg-8 col-12 pad-0">
-                            <ul class="d-lg-flex">
+                            <ul class="d-md-flex">
                                 <li><a href="#"class="color-green">গোপনীয়তার নীতিমালা</a></li>
                                 <li><a href="#"class="color-cyan">ব্যবহারের শর্তাবলি</a></li>
                                 <li><a href="#"class="color-purple">সার্বিক সহযোগিতায়</a></li>

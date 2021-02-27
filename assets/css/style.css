@@ -96,6 +96,7 @@ body {
 .thana .chzn-select, .union .chzn-select {
     content: attr(title);
     font-size: 13px;
+    width:200px;
 }
 .top-header .search .search-btn {
     background-color: var(--white);
@@ -236,8 +237,6 @@ body {
 }
 .mean-container a.meanmenu-reveal {
     border: 1px solid var(--green);
-}
-.mean-container a.meanmenu-reveal {
     color: var(--green);
 }
 .mean-container .mean-nav ul li {
@@ -334,7 +333,7 @@ ul.color-red li ul li a.dropdown-item {
 
 /* carousel */
 .body-content .carousel-item img{
-    height:300px;
+    height:400px;
 }
 /* news */
 .body-content .news .row{
