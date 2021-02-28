@@ -1,4 +1,14 @@
 <div class="right-sidebar">
+    <div class="right-column">
+        <p><img alt="sovapoti" src="assets/images/sovapoti.jpg" style="width:100%"></p>
+        <h5 class="name">বীর মুক্তিযোদ্ধা আলহাজ্ব আবু আহম্মেদ মন্নাফী</h5>
+        <h5 class="post">সভাপতি<br>ঢাকা মহানগর দক্ষিণ আওয়ামী লীগ</h5>
+    </div>
+    <div class="right-column">
+        <p><img alt="secretary" src="assets/images/secretary.jpg" style="width:100%"></p>
+        <h5 class="name">আলহাজ্ব মোহাম্মদ হুমায়ুন কবির</h5>
+        <h5 class="post">সাধারণ সম্পাদক<br>ঢাকা মহানগর দক্ষিণ আওয়ামী লীগ</h5>
+    </div>
     <ul class="graphical-result-btn" id="graphical-result-btn-desktop">
         <li>
             <a target="_blank" href="https://albd.org/bn/">

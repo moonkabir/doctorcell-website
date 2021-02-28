@@ -120,22 +120,7 @@
                         </li>
                         <li class="nav-item"><a class="nav-link color-magenta" href="thotto-batayan.php">তথ্য বাতায়ন</a></li>
                         <li class="nav-item"><a class="nav-link color-cyan" href="press-realise.php">প্রেস রিলিজ</a></li>
-                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-purple" href="gallery.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">গ্যালারি</a>
-                            <ul class="color-purple mega-menu">
-                                <li><a class="dropdown-item color-purple dropdown-toggle" href="gallery-video.php">ভিডিও গ্যালরি</a>
-                                    <ul class="mega-sub-menu">
-                                        <li><a class="dropdown-item" href="#">মহান স্বাধীনতা ও জাতীয় দিবস</a></li>
-                                        <li><a class="dropdown-item" href="#">৪র্থ জাতীয় উন্নয় মেলা</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item dropdown-toggle" href="gallery-image.php">ফটোগ্যালারী</a>
-                                    <ul class="mega-sub-menu">
-                                        <li><a class="dropdown-item" href="#">ই-নামজারি</a></li>
-                                        <li><a class="dropdown-item" href="#">কৃষকের অ্যাপ</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
+                        <li class="nav-item"><a class="nav-link color-purple" href="gallery.php">গ্যালারি</a></li>
                         <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ই-সেবাসমূহ</a>
                             <ul class="color-green mega-menu e-sheba">
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">মোবাইল অ্যাপ</a>

@@ -2,9 +2,34 @@
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
-                <div class="col-lg-8 col-12 pad-0">
-                    <div class="slider-img">
-                        <img src="assets/images/images.jpg" alt="National-Portal-Card-PM">
+                <div class="col-lg-9 col-12 pad-0">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"  src="assets/images/images.jpg" alt="National-Portal-Card-PM">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider4.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider3.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider1.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/images/slider5.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev carousel-control-icon" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next  carousel-control-icon" href="#carouselExampleControls" role="button" data-slide="next">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
                     </div>
                     <div class="typewriter">
                         <marquee direction="left" scrollamount="7" onmouseover="this.stop()" onmouseout="this.start()">
@@ -17,51 +42,68 @@
                             </h3>
                         </marquee> 
                     </div>
-                    <div class="notice-board-bg">
-                        <div class="d-flex">
-                            <img src="assets/images/bg_notice_board.png" alt="bg_notice_board">
-                            <h5>প্রেস রিলিজ</h4>
+                    <div class="press-realise">
+                        <h4 class="press-realise-heading"> <a href="#">প্রেস রিলিজ</a></h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 pad-right-15">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/20-02-2021-ekushey-padak-2-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title overlay"><a href="#">ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/16-02-2021-corona-pm-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title"><a href="#">করোনা নিয়ন্ত্রণের পথে বাংলাদেশঃ নেপথ্যে প্রধানমন্ত্রীর সাহসী পদক্ষেপ</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/awami-league-20210224123526-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title"><a href="#">ঢাকা মহানগর আওয়ামী লীগের বিশেষ বর্ধিত সভা ২০২১</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-right-15">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-vaccine-village-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title"><a href="#">করোনা নিয়ন্ত্রণে গ্রামেও দ্রুতগতিতে বাড়ছে টিকা বিশেষ উৎসব</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-vaccine-bn-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title"><a href="#">দ্রুতগতিতে বাড়ছে টিকাগ্রহণের হারঃ ৭ দিনে টিকা নিয়েছেন ৯ লাখ মানুষ</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
+                                <div class="single-post-wrapper">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-ff-allowance-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    </a>
+                                    <div class="post-content-wrapper">
+                                        <h3 class="post-title"><a href="#">মুজিববর্ষে মুক্তিযোদ্ধা ভাতা বৃদ্ধির সিদ্ধান্ত নিয়েছেন প্রধানমন্ত্রী শেখ হাসিনা</a></h3>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="notice-board-ticker">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> অফিস আদেশ</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> ব্যবসা সহজীকরণ সূচকে উন্নয়নের লক্ষ্যে প্রণীত কর্মপরিকল্পনা বাস্তবায়ন সংক্রান্ত</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> গণ বিজ্ঞপ্তি</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> ১৩৮/১৯৬১-১৯৬২ নং এল.এ কেসভুক্ত প্রত্যপিত ঘোষিত ভূমির অনাপত্তি প্রদান।</a></li>
-                                <li><a href="#"><i class="fas fa-angle-right"></i> নোটিশ (স্টাফ মিটিং)</a></li>
-                            </ul>
-                            <div class="all-button">
-                                <a class="btn" href="#" title="সকল নোটিশ">সকল</a>
-                            </div>	
-                        </div>
-                    </div>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="assets/images/slider4.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider3.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider1.jpg" alt="Second slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                     <div class="popular-plan">
                         <h4 class="title">জনপ্রিয়</h4>
-                        <ul class="d-lg-flex">
+                        <ul class="d-lg-flex justify-content-between">
                             <li>
                                 <h5 class="sebasomuho">সেবাসমূহ</h5>
                                 <hr>
@@ -96,8 +138,8 @@
                         </div>
                     </div>
                     <div class="news">
-                        <div class="d-lg-flex">
-                            <div class="col-lg-6 col-12 pad-0">
+                        <div class="d-lg-flex pad-bottom-20">
+                            <div class="col-lg-4 col-12 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>কর্মসম্পাদন ব্যবস্থাপনা</h4>
                                     <div class="d-flex">
@@ -111,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12 pad-0">
+                            <div class="col-lg-4 col-12">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>টেন্ডার</h4>
                                     <div class="d-flex">
@@ -125,9 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="d-lg-flex">
-                            <div class="col-lg-6 col-12 pad-0">
+                            <div class="col-lg-4 col-12 pad-right-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইসিটি বিষয়ক কার্যক্রম</h4>
                                     <div class="d-flex">
@@ -136,29 +176,13 @@
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/5f866e18-cf76-49eb-8840-0ada912ee028/বাস্তবায়িত-ই-সেবা-কার্যক্রম" title="বাস্তবায়িত ই-সেবা কার্যক্রম">বাস্তবায়িত ই-সেবা কার্যক্রম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/24bbfed6-a153-4e84-a69d-59b44b0bbf91/বাস্তাবায়নাধিন-ই-সেবা-কার্যক্রম" title="বাস্তাবায়নাধিন ই-সেবা কার্যক্রম">বাস্তাবায়নাধিন ই-সেবা কার্যক্রম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/d4c8e7e6-e143-472f-97e8-a2eb7cd02f55/প্রস্তাবিত-ই-সেবা-কার্যক্রম" title="প্রস্তাবিত ই-সেবা কার্যক্রম">প্রস্তাবিত ই-সেবা কার্যক্রম</a></li>
-                                            <li><i class="fas fa-angle-right"></i><a href="" title="অর্জিত সাফল্য">অর্জিত সাফল্য</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12 pad-0">
-                                <div class="six columns service-box box" style="float:left">
-                                    <h4>ফরম ও প্রকাশনা</h4>
-                                    <div class="d-flex">
-                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা ">		
-                                        <ul class="caption fade-caption" style="margin:0">
-                                            <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
-                                            <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
-                                            <li><i class="fas fa-angle-right"></i><a href="/site/view/forms/সকল-ফরম" title="সকল ফরম">সকল ফরম</a></li>
-                                            <li><i class="fas fa-angle-right"></i><a href="/site/view/publications/প্রকাশনা" title="প্রকাশনা">প্রকাশনা</a></li>
-                                            
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="d-lg-flex">
-                            <div class="col-lg-6 col-12 pad-0">
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইন, বিধি, নীতিমালা</h4>
                                     <div class="d-flex">
@@ -172,7 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12 pad-0">
+                            <div class="col-lg-4 col-md-6 col-12">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
@@ -186,10 +210,24 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-4 col-md-6 col-12 pad-right-0">
+                                <div class="six columns service-box box" style="float:left">
+                                    <h4>ফরম ও প্রকাশনা</h4>
+                                    <div class="d-flex">
+                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা ">		
+                                        <ul class="caption fade-caption" style="margin:0">
+                                            <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="/site/view/forms/সকল-ফরম" title="সকল ফরম">সকল ফরম</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="/site/view/publications/প্রকাশনা" title="প্রকাশনা">প্রকাশনা</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 pad-0">
+                <div class="col-lg-3 col-12 pad-0">
                     <?php include('include/right-sidebar.php')?>
                 </div>
             </div>

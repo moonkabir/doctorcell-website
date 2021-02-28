@@ -41,9 +41,6 @@
         float: none;
         text-align:center;
     }
-    .body-content .notice-board-bg .notice-board-ticker a {
-        font-size: 18px;
-    }
     /* slider */
     .body-content .carousel-item img {
         height: 150px;
@@ -151,9 +148,6 @@
     .body-content .popular-portal ul li {
         float: none;
         text-align:center;
-    }
-    .body-content .notice-board-bg .notice-board-ticker a {
-        font-size: 18px;
     }
     /* slider */
 
