@@ -2,7 +2,7 @@
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
-                <div class="col-lg-8 col-12 pad-0">
+                <div class="col-lg-9 col-12 pad-0">
                     <h2>Gallery Page</h2>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-12">
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 pad-0">
+                <div class="col-lg-3 col-12 pad-0">
                     <?php include('include/right-sidebar.php')?>
                 </div>
             </div>

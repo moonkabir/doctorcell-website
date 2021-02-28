@@ -103,7 +103,7 @@
                     </div>
                     <div class="popular-plan">
                         <h4 class="title">জনপ্রিয়</h4>
-                        <ul class="d-lg-flex justify-content-between">
+                        <ul class="d-lg-flex justify-content-around">
                             <li>
                                 <h5 class="sebasomuho">সেবাসমূহ</h5>
                                 <hr>
@@ -153,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-12">
+                            <div class="col-lg-4 col-12 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>টেন্ডার</h4>
                                     <div class="d-flex">
@@ -167,7 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-12 pad-right-0">
+                            <div class="col-lg-4 col-12 pad-right-0 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইসিটি বিষয়ক কার্যক্রম</h4>
                                     <div class="d-flex">
@@ -196,7 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-12">
+                            <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
@@ -210,7 +210,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-12 pad-right-0">
+                            <div class="col-lg-4 col-md-6 col-12 pad-right-0 pad-left-0">
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">

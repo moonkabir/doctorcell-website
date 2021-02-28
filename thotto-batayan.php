@@ -2,7 +2,7 @@
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
-                <div class="col-lg-8 col-12 pad-0">
+                <div class="col-lg-9 col-12 pad-0">
                     <div class="tottho-batayan">
                         <h5>মন্ত্রণালয় হতে ইউনিয়ন পর্যায় পর্যন্ত সরকারি অফিসের তথ্য বাতায়নের সংখ্যা</h5>
                         <table border="1" cellpadding="0" cellspacing="0" width="100%">
@@ -244,7 +244,7 @@
                         </table>
                     </div> 
                 </div>
-                <div class="col-lg-4 col-12 pad-0">
+                <div class="col-lg-3 col-12 pad-0">
                     <?php include('include/right-sidebar.php')?>
                 </div>
             </div>

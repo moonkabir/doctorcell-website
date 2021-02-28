@@ -2,7 +2,7 @@
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
-                <div class="col-lg-8 col-12 pad-0">
+                <div class="col-lg-9 col-12 pad-0">
                     <div class="thana">
                         <h5>কর্মকর্তাবৃন্দ: ঢাকা মহানগর দক্ষিণ আওয়ামী লীগ</h5>
                         <table class="bordered officerlist" width="100%">
@@ -47,7 +47,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12 pad-0">
+                <div class="col-lg-3 col-12 pad-0">
                     <?php include('include/right-sidebar.php')?>
                 </div>
             </div>
