@@ -67,9 +67,9 @@
         </div>
     </footer>
 </div>
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{asset('/')}}frontend/js/jquery-3.3.1.min.js"></script>
+    <script src="{{asset('/')}}frontend/js/bootstrap.min.js"></script>
+    <script src="{{asset('/')}}frontend/js/jquery.meanmenu.min.js"></script>
+    <script src="{{asset('/')}}frontend/js/main.js"></script>
 </body>
 </html>

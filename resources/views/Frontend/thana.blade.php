@@ -1,9 +1,9 @@
-<?php include('include/header.php')?>
+@include('Frontend.include.header')
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
                 <div class="col-lg-9 col-12 pad-0">
-                    <div class="word">
+                    <div class="thana">
                         <h5>কর্মকর্তাবৃন্দ: ঢাকা মহানগর দক্ষিণ আওয়ামী লীগ</h5>
                         <table class="bordered officerlist" width="100%">
                             <thead>
@@ -30,7 +30,7 @@
                                     <td><img src="assets/images/man-icon.png" alt="man-icon" width="80"></td>
                                     <td>হামিদুর রহমান</td>
                                     <td>অতিরিক্ত জেলা প্রশাসক (শিক্ষা ও আইসিটি)</td>
-                                    <td>মোবাইল নম্বর: 01713048580, 01933444001</td>
+                                    <td>মোবাইল নম্বর: 01713048580, 01933444001 </br>ফোন: 9556628 (অফিস)</td>
                                 </tr>
                                 <tr>
                                     <td><img src="assets/images/man-icon.png" alt="man-icon" width="80"></td>
@@ -48,9 +48,9 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 pad-0">
-                    <?php include('include/right-sidebar.php')?>
+                @include('Frontend.include.right-sidebar')
                 </div>
             </div>
         </div>
     </section>
-<?php include('include/footer.php')?>
+    @include('Frontend.include.footer')

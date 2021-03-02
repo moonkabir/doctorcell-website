@@ -19,3 +19,22 @@ Route::get('/', function () {
 Route::get('/main', function () {
     return view('Frontend/main');
 });
+Route::get('/word', function () {
+    return view('Frontend/word');
+});
+Route::get('/union', function () {
+    return view('Frontend/union');
+});
+Route::get('/thana', function () {
+    return view('Frontend/thana');
+});
+Route::get('/thotto-batayan', function () {
+    return view('Frontend/thotto-batayan');
+});
+Route::get('/gallery', function () {
+    return view('Frontend/gallery');
+});
+Route::get('/dhaka-south-city', function () {
+    return view('Frontend/dhaka-south-city');
+});
+

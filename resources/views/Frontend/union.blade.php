@@ -1,4 +1,4 @@
-<?php include('include/header.php')?>
+@include('Frontend.include.header')
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
@@ -48,9 +48,9 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 pad-0">
-                    <?php include('include/right-sidebar.php')?>    
+                @include('Frontend.include.right-sidebar')  
                 </div>
             </div>
         </div>
     </section>
-<?php include('include/footer.php')?>
+    @include('Frontend.include.footer')

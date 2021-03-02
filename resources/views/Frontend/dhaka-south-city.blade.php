@@ -1,4 +1,4 @@
-<?php include('include/header.php')?>
+@include('Frontend.include.header')
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
@@ -13,7 +13,7 @@
 
                         <p>প্রতিষ্ঠাকালীন পূর্ব পাকিস্তান আওয়ামী মুসলিম লীগের সভাপতি হন টাঙ্গাইলের মওলানা আব্দুল হামিদ খান ভাসানী, সহ-সভাপতি হন আতাউর রহমান খান, শাখাওয়াত হোসেন ও আলী আহমদ। টাঙ্গাইলের শামসুল হক সাধারণ সম্পাদক। শেখ মুজিবুর রহমান, খন্দকার মোশতাক আহমদ ও এ কে রফিকুল হোসেনকে যুগ্ম সাধারণ সম্পাদকের দায়িত্ব দেওয়া হয়। কোষাধ্যক্ষ হন ইয়ার মোহাম্মদ খান। এসময় শেখ মুজিব কারাগারে অন্তরীণ ছিলেন। অন্যদিকে, পুরো পাকিস্তানের ক্ষেত্রে সংগঠনটির নাম রাখা হয় নিখিল পাকিস্তান আওয়ামী লীগ। এর সভাপতি হন হোসেন শহীদ সোহরাওয়ার্দী।</p>
                         
-                        <img src="assets/images/dhaka-city-south-map.jpg" alt="dhaka-city-south-map">
+                        <img src="{{asset('/')}}frontend/images/dhaka-city-south-map.jpg" alt="dhaka-city-south-map">
 
                         <p>২৪ জুন বিকেলে নবগঠিত আওয়ামী মুসলিম লীগ মওলানা ভাসানীর সভাপতিত্বে ঢাকার আরমানিটোলা ময়দানে প্রকাশ্যে জনসভা করে। সভায় আনুমানিক প্রায় চার হাজার লোক উপস্থিত হয়।</p>
 
@@ -36,9 +36,9 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 pad-0">
-                    <?php include('include/right-sidebar.php')?>
+                    @include('Frontend.include.right-sidebar')
                 </div>
             </div>
         </div>
     </section>
-<?php include('include/footer.php')?>
+@include('Frontend.include.footer')

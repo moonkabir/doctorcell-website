@@ -1,4 +1,4 @@
-<?php include('include/header.php')?>
+@include('Frontend.include.header')
     <section class="body-content">
         <div class="row">
             <div class="d-lg-flex">
@@ -6,22 +6,22 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100"  src="assets/images/images.jpg" alt="National-Portal-Card-PM">
+                                <img class="d-block w-100"  src="{{asset('/')}}frontend/images/images.jpg" alt="National-Portal-Card-PM">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider4.jpg" alt="First slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider4.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider2.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider2.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider3.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider3.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider1.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider1.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/slider5.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider5.jpg" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev carousel-control-icon" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -47,7 +47,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-12 pad-right-15">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/20-02-2021-ekushey-padak-2-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/vasha-songram.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title overlay"><a href="#">ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা</a></h3>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/16-02-2021-corona-pm-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/corona-pm.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title"><a href="#">করোনা নিয়ন্ত্রণের পথে বাংলাদেশঃ নেপথ্যে প্রধানমন্ত্রীর সাহসী পদক্ষেপ</a></h3>
@@ -65,7 +65,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/awami-league-20210224123526-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/bordhito-sova.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title"><a href="#">ঢাকা মহানগর আওয়ামী লীগের বিশেষ বর্ধিত সভা ২০২১</a></h3>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-12 pad-right-15">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-vaccine-village-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/vaccine-village.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title"><a href="#">করোনা নিয়ন্ত্রণে গ্রামেও দ্রুতগতিতে বাড়ছে টিকা বিশেষ উৎসব</a></h3>
@@ -83,7 +83,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-vaccine-bn-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/vaccine-bn.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title"><a href="#">দ্রুতগতিতে বাড়ছে টিকাগ্রহণের হারঃ ৭ দিনে টিকা নিয়েছেন ৯ লাখ মানুষ</a></h3>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-12 pad-left-0">
                                 <div class="single-post-wrapper">
-                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="https://albd-dcs.org/wp-content/uploads/2021/02/15-02-2021-ff-allowance-464x290.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
+                                    <a href="#" title="ভাষার সংগ্রামের মধ্য দিয়েই রচিত হয়েছিল স্বাধীনতার পথ: প্রধানমন্ত্রী শেখ হাসিনা"><img src="{{asset('/')}}frontend/images/ff-allowance.jpg" class="attachment-editorial-block-medium size-editorial-block-medium wp-post-image" alt="">
                                     </a>
                                     <div class="post-content-wrapper">
                                         <h3 class="post-title"><a href="#">মুজিববর্ষে মুক্তিযোদ্ধা ভাতা বৃদ্ধির সিদ্ধান্ত নিয়েছেন প্রধানমন্ত্রী শেখ হাসিনা</a></h3>
@@ -143,7 +143,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>কর্মসম্পাদন ব্যবস্থাপনা</h4>
                                     <div class="d-flex">
-                                        <img style="max-width:700px;" src="assets/images/news1.png" alt="কর্মসম্পাদন ব্যবস্থাপনা">
+                                        <img style="max-width:700px;" src="{{asset('/')}}frontend/images/news1.png" alt="কর্মসম্পাদন ব্যবস্থাপনা">
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="https://bangladesh.gov.bd/site/view/policy/" title="পরিপত্র/নীতিমালা">পরিপত্র/নীতিমালা</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/9722d824-a890-4da5-8b57-cd786bb44775/চুক্তিসমূহ" title="চুক্তিসমূহ">চুক্তিসমূহ</a></li>
@@ -157,7 +157,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>টেন্ডার</h4>
                                     <div class="d-flex">
-                                        <img src="assets/images/news2.png" alt="টেন্ডার">		
+                                        <img src="{{asset('/')}}frontend/images/news2.png" alt="টেন্ডার">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/view/tenders/টেন্ডার-নোটিশ" title="টেন্ডার নোটিশ">টেন্ডার নোটিশ</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="https://www.eprocure.gov.bd/" title="ইজিপি ওয়েব সাইট">ইজিপি ওয়েব সাইট</a></li>
@@ -171,7 +171,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইসিটি বিষয়ক কার্যক্রম</h4>
                                     <div class="d-flex">
-                                        <img src="assets/images/news3.png" alt="আইসিটি বিষয়ক কার্যক্রম">	
+                                        <img src="{{asset('/')}}frontend/images/news3.png" alt="আইসিটি বিষয়ক কার্যক্রম">	
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/5f866e18-cf76-49eb-8840-0ada912ee028/বাস্তবায়িত-ই-সেবা-কার্যক্রম" title="বাস্তবায়িত ই-সেবা কার্যক্রম">বাস্তবায়িত ই-সেবা কার্যক্রম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/24bbfed6-a153-4e84-a69d-59b44b0bbf91/বাস্তাবায়নাধিন-ই-সেবা-কার্যক্রম" title="বাস্তাবায়নাধিন ই-সেবা কার্যক্রম">বাস্তাবায়নাধিন ই-সেবা কার্যক্রম</a></li>
@@ -186,7 +186,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>আইন, বিধি, নীতিমালা</h4>
                                     <div class="d-flex">
-                                        <img src="assets/images/news5.png" alt="আইন, বিধি, নীতিমালা">	
+                                        <img src="{{asset('/')}}frontend/images/news5.png" alt="আইন, বিধি, নীতিমালা">	
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/07e19fc4-ed53-47e3-a4dc-256b44b5e384/আইন" title="আইন">আইন</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/page/07e19fc4-ed53-47e3-a4dc-256b44b5e384/বিধি" title="বিধি">বিধি</a></li>
@@ -200,7 +200,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
-                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা">		
+                                        <img src="{{asset('/')}}frontend/images/news4.png" alt="ফরম ও প্রকাশনা">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
@@ -214,7 +214,7 @@
                                 <div class="six columns service-box box" style="float:left">
                                     <h4>ফরম ও প্রকাশনা</h4>
                                     <div class="d-flex">
-                                        <img src="assets/images/news4.png" alt="ফরম ও প্রকাশনা ">		
+                                        <img src="{{asset('/')}}frontend/images/news4.png" alt="ফরম ও প্রকাশনা ">		
                                         <ul class="caption fade-caption" style="margin:0">
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/b0b26c80-71df-4005-9a91-d2f71f118699/জন্ম-নিবন্ধন-ফরম" title="জন্ম নিবন্ধন ফরম">জন্ম নিবন্ধন ফরম</a></li>
                                             <li><i class="fas fa-angle-right"></i><a href="/site/forms/1d51951f-1694-4106-a44c-cab25950ea34/ট্রেড-লাইসেন্স" title="ট্রেড লাইসেন্স">ট্রেড লাইসেন্স</a></li>
@@ -228,9 +228,9 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-12 pad-0">
-                    <?php include('include/right-sidebar.php')?>
+                    @include('Frontend.include.right-sidebar')
                 </div>
             </div>
         </div>
     </section>
-<?php include('include/footer.php')?>
+@include('Frontend.include.footer')
