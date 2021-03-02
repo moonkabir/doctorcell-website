@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+
 Route::get('/main', function () {
     return view('Frontend/main');
 });
@@ -37,4 +45,3 @@ Route::get('/gallery', function () {
 Route::get('/dhaka-south-city', function () {
     return view('Frontend/dhaka-south-city');
 });
-
