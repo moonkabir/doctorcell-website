@@ -1,0 +1,168 @@
+@media only screen and (min-width: 630px) {
+    #primary_nav_wrap ul{
+        list-style:none;
+        position:relative;
+        float:left;
+        margin:0;
+        padding:5px;
+    }
+    #primary_nav_wrap ul li a{
+        display:block;
+        text-decoration:none;
+        font-weight:500;
+        font-size:17px;
+        line-height:32px;
+        padding:5px 10px;
+    }
+    #primary_nav_wrap ul li{
+        position:relative;
+        float:left;
+        margin:0;
+        padding:0;
+        border: 1px dotted rgba(158, 158, 158,0.4);
+        border-top: 0;
+        border-left: 0;
+    }
+    #primary_nav_wrap ul ul{
+        display:none;
+        position:absolute;
+        top:100%;
+        left:0;
+        background:#fff;
+        padding:0
+    }
+    #primary_nav_wrap ul ul.e-sheba{
+        left:-200%;
+    }
+    #primary_nav_wrap ul ul.govt-office{
+        left:-463%;
+    }
+    #primary_nav_wrap ul ul li{
+        float:none;
+    }
+    #primary_nav_wrap ul ul ul{
+        top:0;
+        left:100%
+    }
+    #primary_nav_wrap ul li:hover > ul{
+        display:block;
+        z-index: 99;
+    }
+    /* menu color */
+
+    #primary_nav_wrap ul li.nav-item a.color-green:hover{
+        background-color: var(--green);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-magenta:hover{
+        background-color: var(--magenta);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-cyan:hover{
+        background-color: var(--cyan);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-purple:hover{
+        background-color: var(--purple);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-red:hover{
+        background-color: var(--red);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-orange:hover{
+        background-color: var(--orange);
+    }
+    #primary_nav_wrap ul li.nav-item a.color-black:hover{
+        background-color: var(--black);
+    }
+    #primary_nav_wrap ul li.nav-item a:hover{
+        color: var(--white) !important;
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-orange,#primary_nav_wrap ul li.nav-item ul.color-green,#primary_nav_wrap ul li.nav-item ul.color-magenta,#primary_nav_wrap ul li.nav-item ul.color-cyan,#primary_nav_wrap ul li.nav-item ul.color-purple,#primary_nav_wrap ul li.nav-item ul.color-red{
+        padding:0;
+        margin: 0;
+        border-radius: 0;
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-orange{
+        border-top: 5px solid var(--orange);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-green{
+        border-top: 5px solid var(--green);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-magenta{
+        border-top: 5px solid var(--magenta);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-cyan{
+        border-top: 5px solid var(--cyan);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-purple{
+        border-top: 5px solid var(--purple);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-red{
+        border-top: 5px solid var(--red);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-orange a{
+        color: var(--orange);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-green a{
+        color: var(--green);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-red a{
+        color: var(--red);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-magenta a{
+        color: var(--magenta);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-purple a{
+        color: var(--purple);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-cyan a{
+        color: var(--cyan);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-orange a:hover,#primary_nav_wrap ul li.nav-item ul.color-cyan a:hover,#primary_nav_wrap ul li.nav-item ul.color-green a:hover,#primary_nav_wrap ul li.nav-item ul.color-red a:hover,#primary_nav_wrap ul li.nav-item ul.color-magenta a:hover,#primary_nav_wrap ul li.nav-item ul.color-purple a:hover{
+        color: var(--white);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-orange a:hover{
+        background: var(--orange);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-cyan a:hover{
+        background: var(--cyan);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-purple a:hover{
+        background: var(--purple);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-magenta a:hover{
+        background: var(--magenta);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-red a:hover{
+        background: var(--red);
+    }
+    #primary_nav_wrap ul li.nav-item ul.color-green a:hover{
+        background: var(--green);
+    }
+    #primary_nav_wrap ul li.mega-menu-li:hover .mega-menu{
+        display:flex;
+    }
+    #primary_nav_wrap ul li.mega-menu-li:hover .mega-menu .mega-sub-menu{
+        top: 100%;
+        left: 0px;
+    } 
+}
+
+    ul.color-cyan li a.dropdown-item.mean-expand-cpy,ul.color-cyan li a.mean-expand,ul.color-cyan li ul li a.dropdown-item {
+        color: var(--cyan);
+    }
+    ul.color-red li a.dropdown-item.mean-expand-cpy,ul.color-red li a.mean-expand,ul.color-red li ul li a.dropdown-item {
+        color: var(--red);
+    }
+    ul.color-orange li a.dropdown-item.mean-expand-cpy,ul.color-orange li a.mean-expand,ul.color-orange li ul li a.dropdown-item {
+        color: var(--orange);
+    }
+    ul.color-purple li a.dropdown-item.mean-expand-cpy,ul.color-purple li a.mean-expand,ul.color-purple li ul li a.dropdown-item {
+        color: var(--purple);
+    }
+    ul.color-green li a.dropdown-item.mean-expand-cpy,ul.color-green li a.mean-expand,ul.color-green li ul li a.dropdown-item {
+        color: var(--green);
+    }
+    ul.color-magenta li a.dropdown-item.mean-expand-cpy,ul.color-magenta li a.mean-expand,ul.color-magenta li ul li a.dropdown-item {
+        color: var(--magenta);
+    }
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background: none;
+    }

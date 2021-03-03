@@ -7,12 +7,12 @@
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('frontend/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/meanmenu.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/meanmenu-external.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu-external.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 <div class="container">
@@ -45,7 +45,7 @@
                     <p>২৫ ফেব্রুয়ারী, ২০২১</p>
                 </div>
                 <div class="mujib">
-                    <img src="{{asset('/')}}frontend/images/Mujib-Borsho.png" alt="Mujib-Borsho">   
+                    <img src="assets/images/Mujib-Borsho.png" alt="Mujib-Soto-Borsho-2020">
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
         <div class="col-12 d-lg-flex pad-0">
             <div class="col-lg-7 col-12  pad-0">
                 <div class="logo">
-                    <img src="{{asset('/')}}frontend/images/logo.png" alt="logo">
+                    <img src="assets/images/logo.png" alt="">
                 </div>
             </div>
             <div class="col-lg-5 col-12 pad-0">        
@@ -91,7 +91,7 @@
                         </form>
                     </div>
                     
-                    <img src="{{asset('/')}}frontend/images/Mujib-Borsho.png" alt="Mujib-Borsho">
+                    <img src="assets/images/Mujib-Borsho.png" alt="Mujib-Borsho">
                 </div>
             </div>
         </div>
@@ -104,23 +104,23 @@
                     <ul>
                         <li class="nav-item active"><a class="nav-link color-black" href="main.php"><i class="fa fa-home" aria-hidden="true"></i></a></li>
                         
-                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" href="{{url('/dhaka-south-city')}}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ঢাকা মহানগর দক্ষিণ</a>
+                        <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" href="dhaka-south-city.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ঢাকা মহানগর দক্ষিণ</a>
                             <ul class="color-green mega-menu">
-                                <li><a class="dropdown-item color-green" href="{{url('/karjonirbahi-songsod')}}">কার্যনির্বাহী সংসদ</a></li>
-                                <li><a class="dropdown-item color-green" href="{{url('/karjonirbahi-songsod-sodossho')}}">কার্যনির্বাহী সংসদ সদস্য</a></li>
-                                <li><a class="dropdown-item color-green" href="{{url('/upodeshta-porishod-sodosso')}}">উপদেষ্টা পরিষদ সদস্য</a></li>
-                                <li><a class="dropdown-item color-green dropdown-toggle">সভাপতি/সাধারণ সম্পাদক</a>
+                                <li><a class="dropdown-item color-green" href="word.php">কার্যনির্বাহী সংসদ</a></li>
+                                <li><a class="dropdown-item color-green" href="union.php">কার্যনির্বাহী সংসদ সদস্য</a></li>
+                                <li><a class="dropdown-item color-green" href="union.php">উপদেষ্টা পরিষদ সদস্য</a></li>
+                                <li><a class="dropdown-item color-green dropdown-toggle" href="union.php">সভাপতি/সাধারণ সম্পাদক</a>
                                     <ul class="color-green mega-sub-menu" style="width: 100%;">
-                                        <li><a class="dropdown-item color-green" href="{{url('/thana')}}">থানা</a></li>
-                                        <li><a class="dropdown-item color-green" href="{{url('/word')}}">ওয়ার্ড</a></li>
-                                        <li><a class="dropdown-item color-green" href="{{url('/union')}}">ইউনিয়ন</a></li>
+                                        <li><a class="dropdown-item color-green" href="thana.php">থানা</a></li>
+                                        <li><a class="dropdown-item color-green" href="word.php">ওয়ার্ড</a></li>
+                                        <li><a class="dropdown-item color-green" href="union.php">ইউনিয়ন</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link color-magenta" href="{{url('/thotto-batayan')}}">তথ্য বাতায়ন</a></li>
-                        <li class="nav-item"><a class="nav-link color-cyan" href="{{url('/press-realise')}}">প্রেস রিলিজ</a></li>
-                        <li class="nav-item"><a class="nav-link color-purple" href="{{url('/gallery')}}">গ্যালারি</a></li>
+                        <li class="nav-item"><a class="nav-link color-magenta" href="thotto-batayan.php">তথ্য বাতায়ন</a></li>
+                        <li class="nav-item"><a class="nav-link color-cyan" href="press-realise.php">প্রেস রিলিজ</a></li>
+                        <li class="nav-item"><a class="nav-link color-purple" href="gallery.php">গ্যালারি</a></li>
                         <li class="nav-item mega-menu-li"><a class="nav-link dropdown-toggle color-green" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ই-সেবাসমূহ</a>
                             <ul class="color-green mega-menu e-sheba">
                                 <li class="dir"><a class="dropdown-item dropdown-toggle">মোবাইল অ্যাপ</a>

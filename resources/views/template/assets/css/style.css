@@ -510,17 +510,11 @@ footer .footer-menu .right-text p{
 }
 .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
     padding: 5px;
-    font-size: 18px;
+    font-size: 12px;
 }
 .body-content .thana table thead tr td,.body-content .union table thead tr td,.body-content .word table thead tr td{
     font-weight:bold;
     text-align:center;
-}
-.body-content .thana table tbody tr td:first-child,.body-content .union table tbody tr td:first-child,.body-content .word table tbody tr td:first-child{
-    width:150px;
-}
-.body-content .thana table tbody tr td img,.body-content .union table tbody tr td img,.body-content .word table tbody tr td img{
-    width:100%;
 }
 @media only screen and (min-width: 70em) {
     .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{

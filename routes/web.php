@@ -45,3 +45,12 @@ Route::get('/gallery', function () {
 Route::get('/dhaka-south-city', function () {
     return view('Frontend/dhaka-south-city');
 });
+Route::get('/karjonirbahi-songsod', function () {
+    return view('Frontend/karjonirbahi-songsod');
+});
+Route::get('/karjonirbahi-songsod-sodossho', function () {
+    return view('Frontend/karjonirbahi-songsod-sodossho');
+});
+Route::get('/upodeshta-porishod-sodosso', function () {
+    return view('Frontend/upodeshta-porishod-sodosso');
+});

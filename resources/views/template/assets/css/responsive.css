@@ -30,12 +30,6 @@
     .header .information-row .infographic-menu .infogra-num sup {
         font-size: 14px;
     }
-    .body-content .thana table tbody tr td:first-child,.body-content .union table tbody tr td:first-child,.body-content .word table tbody tr td:first-child{
-        width:100px;
-    }
-    .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
-        font-size: 12px;
-    }
     /* body content */
     .body-content .typewriter a span {
         font-size:16px;
@@ -131,12 +125,6 @@
         font-size: 22px;
     }
     .header .information-row .infographic-menu .infogra-num sup {
-        font-size: 14px;
-    }
-    .body-content .thana table tbody tr td:first-child,.body-content .union table tbody tr td:first-child,.body-content .word table tbody tr td:first-child{
-        width:100px;
-    }
-    .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
         font-size: 14px;
     }
     /* mujib100 */
@@ -243,12 +231,6 @@
     }
     footer .footer-menu .right-text p {
         text-align: left;
-    }
-    .body-content .thana table tbody tr td:first-child,.body-content .union table tbody tr td:first-child,.body-content .word table tbody tr td:first-child{
-        width:120px;
-    }
-    .body-content .thana table tr td,.body-content .union table tr td,.body-content .word table tr td{
-        font-size: 16px;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
