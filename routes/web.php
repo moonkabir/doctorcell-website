@@ -54,3 +54,7 @@ Route::get('/karjonirbahi-songsod-sodossho', function () {
 Route::get('/upodeshta-porishod-sodosso', function () {
     return view('Frontend/upodeshta-porishod-sodosso');
 });
+
+
+
+
