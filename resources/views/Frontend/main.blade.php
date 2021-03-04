@@ -9,19 +9,13 @@
                                 <img class="d-block w-100"  src="{{asset('/')}}frontend/images/images.jpg" alt="National-Portal-Card-PM">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider4.jpg" alt="First slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/hatirjheel.jpg" alt="slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider2.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/padma-bridge.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider3.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider1.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/slider5.jpg" alt="Second slide">
+                                <img class="d-block w-100" src="{{asset('/')}}frontend/images/satelite.jpg" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev carousel-control-icon" href="#carouselExampleControls" role="button" data-slide="prev">
